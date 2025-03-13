@@ -9,7 +9,7 @@ if [[ ! -f "$FILE" ]]; then
     exit 1
 fi
 
-# Process the data and calculate the average                                                                                                                                                                                                       
+                                                                                                                                                                                                     
 average=$(cat "$FILE" | \
     grep "MADISON SCHOOLS" | \
     cut -d',' -f7 | \
